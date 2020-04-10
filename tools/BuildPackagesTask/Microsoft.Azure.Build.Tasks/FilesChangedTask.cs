@@ -72,6 +72,8 @@ namespace Microsoft.WindowsAzure.Build.Tasks
                 debug = false;
             }
 
+            debug = true;
+
             int ParsedPullRequestNumber;
 
             // The next statement will convert the string representation of a number to its integer equivalent.
